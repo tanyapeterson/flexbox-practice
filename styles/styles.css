@@ -1,0 +1,43 @@
+body {
+    min-height: 100vh;
+    background-color: #A7727D;
+}
+
+.container {
+    display: flex;
+}
+
+
+.box-one {
+    width: 273px;
+    height: 220px;
+    background-color: #EDDBC7;
+}
+
+
+.box-two {
+    width: 273px;
+    height: 220px;
+    background-color: #86A3B8;
+}
+
+
+.box-three {
+    width: 273px;
+    height: 220px;
+    background-color: #EDDBC7;
+}
+
+
+.box-four {
+    width: 273px;
+    height: 220px;
+    background-color: #86A3B8;
+}
+
+
+.box-five {
+    width: 273px;
+    height: 220px;
+    background-color: #EDDBC7;
+}
