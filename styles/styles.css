@@ -1,17 +1,21 @@
 body {
     min-height: 100vh;
-    background-color: #A7727D;
 }
 
 .container {
     display: flex;
+    background-color: #F0DBDB;
+    width: 1500px;
+    height: 1000px;
 }
 
 
 .box-one {
     width: 273px;
     height: 220px;
-    background-color: #EDDBC7;
+    background-color: #F7A4A4;
+
+
 }
 
 
@@ -19,13 +23,17 @@ body {
     width: 273px;
     height: 220px;
     background-color: #86A3B8;
+
+
 }
 
 
 .box-three {
     width: 273px;
     height: 220px;
-    background-color: #EDDBC7;
+    background-color: #F7A4A4;
+
+
 }
 
 
@@ -33,11 +41,22 @@ body {
     width: 273px;
     height: 220px;
     background-color: #86A3B8;
+
+
 }
 
 
 .box-five {
     width: 273px;
     height: 220px;
-    background-color: #EDDBC7;
+    background-color: #F7A4A4;
+}
+
+
+
+.circle {
+    width: 30px;
+    height: 30px;
+    background-color: white;
+    border-radius: 50%;
 }
