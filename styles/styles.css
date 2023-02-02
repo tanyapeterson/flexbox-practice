@@ -4,9 +4,12 @@ body {
 
 .container {
     display: flex;
+    flex-wrap: wrap;
     background-color: #F0DBDB;
-    width: 1500px;
-    height: 1000px;
+    width: 900px;
+    height: 700px;
+    align-items: center;
+    justify-content: space-evenly;
 }
 
 
@@ -14,17 +17,13 @@ body {
     width: 273px;
     height: 220px;
     background-color: #F7A4A4;
-
-
 }
 
 
 .box-two {
     width: 273px;
     height: 220px;
-    background-color: #86A3B8;
-
-
+    background-color: #86A3B8
 }
 
 
@@ -33,7 +32,6 @@ body {
     height: 220px;
     background-color: #F7A4A4;
 
-
 }
 
 
@@ -41,8 +39,6 @@ body {
     width: 273px;
     height: 220px;
     background-color: #86A3B8;
-
-
 }
 
 
@@ -50,13 +46,16 @@ body {
     width: 273px;
     height: 220px;
     background-color: #F7A4A4;
+    align-self: flex-start;
 }
 
 
 
+
+
 .circle {
-    width: 30px;
-    height: 30px;
+    width: 20px;
+    height: 20px;
     background-color: white;
     border-radius: 50%;
 }
